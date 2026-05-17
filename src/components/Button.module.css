@@ -5,14 +5,13 @@
   color: var(--color-grey-dark);
   text-transform: uppercase;
   font-weight: var(--fw-700);
-  font-size: 1.55rem;
+  font-size: 1.4rem;
   width: 100%;
   border-radius: 99rem;
-  letter-spacing: 0.3rem;
-  padding-block: 1.5rem;
-  transition: background-color 150ms;
+  letter-spacing: 0.25rem;
+  padding-block: 1.3rem;
+  transition: background-color 200ms;
 }
-
 .reset-btn {
   text-transform: none;
   letter-spacing: normal;
