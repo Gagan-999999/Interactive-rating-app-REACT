@@ -1,0 +1,70 @@
+:root {
+  /* ### Primary */
+  --color-orange: hsl(25, 97%, 53%);
+  --color-orange-light: hsl(25, 60%, 63%);
+
+  /* ### Neutral */
+  --color-white: hsl(0, 100%, 100%);
+  --color-grey-light: hsl(217, 12%, 63%);
+  --color-grey: hsl(213, 19%, 18%);
+  --color-grey-dark: hsl(216, 12%, 8%);
+  --gradient: radial-gradient(95% 95% at 50% 0%, #232a34 0%, #181e27 100%);
+
+  --font: "Overpass", sans-serif;
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --font-base: 1.5rem;
+}
+
+/* ==================
+      CSS RESET
+  =================== */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  font-style: italic;
+  height: auto;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font);
+  font-size: var(--font-base);
+  font-weight: var(--fw-400);
+  color: var(--color-white);
+  background-color: var(--color-grey-dark);
+  display: grid;
+  place-items: center;
+  padding-inline: 2.5rem;
+  line-height: 1.6;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

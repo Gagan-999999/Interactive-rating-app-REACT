@@ -1,0 +1,28 @@
+.button {
+  border: none;
+  margin-block: 0.5rem;
+  background-color: var(--color-orange);
+  color: var(--color-grey-dark);
+  text-transform: uppercase;
+  font-weight: var(--fw-700);
+  font-size: 1.55rem;
+  width: 100%;
+  border-radius: 99rem;
+  letter-spacing: 0.3rem;
+  padding-block: 1.5rem;
+  transition: background-color 150ms;
+}
+
+.reset-btn {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.button:hover {
+  background-color: var(--color-white);
+}
+
+.button:disabled {
+  background-color: var(--color-orange-light);
+  cursor: not-allowed;
+}
